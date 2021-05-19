@@ -32,7 +32,7 @@ function findMode(arr){
         }
     }
 
-    return mode;
+    return +mode;
 }
 
 // For the Mean and Median considering that the numbers we'll be working with

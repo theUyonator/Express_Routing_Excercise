@@ -44,10 +44,10 @@ describe("find mean", function (){
 })
 
 describe("find mode", function (){
-    test("it finds the number that occurs the most in a given array and returns it as a string", function (){
+    test("it finds the number that occurs the most in a given array and returns it", function (){
         const arr = [3,3,5,3,4,5,0,6,10,8,3,7];
         const mode = findMode(arr);
-        expect(mode).toEqual("3");
+        expect(mode).toBe(3);
     })
 
 })
